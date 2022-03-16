@@ -24,15 +24,15 @@
       function recordReact() 
       {
        myTime = Date.now();
-       console.log("Current time in milliseconds is "+ myTime)
+       console.log("Here is the Current time in milliseconds is "+ myTime)
       }
       function startTime()
       {
-        for(let i=0;i<4;i++)
+        for(let n=0;n<4;n++)
         {
           setTimeout(()=>{
-        document.getElementById('countdown').innerHTML = i
-      }, (3-i)*1000)
+        document.getElementById('countdown').innerHTML = n
+      }, (3-n)*1000)
         }
   
         setTimeout(()=>{
